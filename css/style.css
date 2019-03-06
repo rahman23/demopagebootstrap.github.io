@@ -1,0 +1,50 @@
+body {
+  background: #343a40;
+  color: whitesmoke;
+}
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.9;
+}
+.nav-link {
+  font-size: 1.3rem;
+}
+#home {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#home .dark-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home .home-inner {
+  padding-top: 20vh;
+}
+
+#home .card-form {
+  opacity: 0.8;
+}
+#home i {
+  color: #008ed6;
+}
+.round-icon {
+  background: whitesmoke;
+  border-radius: 5px;
+}
+
+.white {
+  background: whitesmoke;
+  color: #888888;
+}
+
+#who i {
+  color: whitesmoke;
+}
